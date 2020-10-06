@@ -13,7 +13,7 @@ const App = () => {
     const [weatherData, setWeatherData] = useState({
         temp: [
             {
-                temperature: '85',
+                temperature: '82',
                 unit: 'F'
             }
         ],
