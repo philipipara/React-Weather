@@ -35,7 +35,7 @@ const App = () => {
         setWeatherData({
             temp: [
                 {
-                    temperature: Math.round(response.data.main.temp),
+                    temperature: Math.round(response.data.main.temp_max),
                     unit: degreeUnit,
                 }
             ],
